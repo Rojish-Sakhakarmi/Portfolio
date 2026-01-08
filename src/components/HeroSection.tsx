@@ -1,4 +1,4 @@
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Linkedin, Mail } from "lucide-react";
 import { Button } from "./ui/button";
 
 const HeroSection = () => {
@@ -15,28 +15,20 @@ const HeroSection = () => {
           </p>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-4 animate-fade-up opacity-0 delay-100">
-            <span className="text-foreground">Your Name</span>
+            <span className="text-foreground">Rojish Sakhakarmi</span>
           </h1>
           
           <h2 className="text-3xl md:text-5xl font-bold text-muted-foreground mb-6 animate-fade-up opacity-0 delay-200">
-            I build things for the web.
+            UI/UX Enthusiast & IT Student
           </h2>
           
           <p className="text-muted-foreground text-lg max-w-xl mx-auto mb-8 animate-fade-up opacity-0 delay-300">
-            I'm an IT student passionate about creating digital experiences. 
-            Currently focused on building accessible, human-centered products.
+            I'm a BCS.IT student from Bhaktapur, passionate about creating beautiful 
+            and intuitive user experiences. Currently studying at KFA Business School & IT.
           </p>
 
           {/* Social Links */}
           <div className="flex items-center justify-center gap-4 mb-10 animate-fade-up opacity-0 delay-400">
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 rounded-lg border border-border text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300"
-            >
-              <Github size={20} />
-            </a>
             <a
               href="https://linkedin.com"
               target="_blank"
@@ -46,7 +38,7 @@ const HeroSection = () => {
               <Linkedin size={20} />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:rojish@example.com"
               className="p-3 rounded-lg border border-border text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300"
             >
               <Mail size={20} />
@@ -54,11 +46,11 @@ const HeroSection = () => {
           </div>
 
           <div className="flex items-center justify-center gap-4 animate-fade-up opacity-0 delay-500">
-            <Button variant="hero" size="lg">
-              View My Work
+            <Button variant="hero" size="lg" asChild>
+              <a href="#skills">View My Skills</a>
             </Button>
-            <Button variant="heroOutline" size="lg">
-              Get In Touch
+            <Button variant="heroOutline" size="lg" asChild>
+              <a href="#contact">Get In Touch</a>
             </Button>
           </div>
         </div>
