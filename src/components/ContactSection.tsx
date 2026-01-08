@@ -46,9 +46,7 @@ const ContactSection = () => {
           duration: 0.5,
           delay: 0.2
         }}>
-            I'm currently looking for new opportunities and my inbox is always open. 
-            Whether you have a question, want to collaborate, or just want to say hi, 
-            I'll try my best to get back to you!
+            Let’s connect! Got a question, idea, or just want to say hello? My inbox is always open — can’t wait to hear from you.
           </motion.p>
           
           <motion.div initial={{

@@ -1,4 +1,4 @@
-import { Linkedin, Mail } from "lucide-react";
+import { Linkedin, Mail, Instagram } from "lucide-react"; // import Instagram
 import { motion } from "framer-motion";
 
 const Footer = () => {
@@ -14,7 +14,7 @@ const Footer = () => {
         >
           <div className="flex gap-4">
             <motion.a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/rojish0"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors p-2"
@@ -23,15 +23,29 @@ const Footer = () => {
             >
               <Linkedin size={18} />
             </motion.a>
+
             <motion.a
-              href="mailto:rojish@example.com"
+              href="mailto:rojish80@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors p-2"
               whileHover={{ scale: 1.2, rotate: -5 }}
               whileTap={{ scale: 0.9 }}
             >
               <Mail size={18} />
             </motion.a>
+
+            {/* Instagram icon */}
+            <motion.a
+              href="https://instagram.com/rojish0" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors p-2"
+              whileHover={{ scale: 1.2, rotate: 5 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <Instagram size={18} />
+            </motion.a>
           </div>
+
           <p className="text-muted-foreground text-xs md:text-sm font-mono text-center">
             Designed & Built by Rojish Sakhakarmi
           </p>

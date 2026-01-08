@@ -27,7 +27,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            {"<RS />"}
+            {"Rojish0"}
           </motion.a>
 
           {/* Desktop Navigation */}
@@ -51,10 +51,17 @@ const Navbar = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
             >
-              <Button variant="hero" size="sm">
-                Resume
+              <Button variant="hero" size="sm" asChild>
+                <a
+                  href="/public/Rojish_CV.pdf"  // put your PDF in public folder
+                  download
+                  className="w-full text-center"
+                >
+                  Resume
+                </a>
               </Button>
             </motion.div>
+
           </div>
 
           {/* Mobile Menu Button */}
@@ -96,10 +103,19 @@ const Navbar = () => {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.3 }}
                 >
-                  <Button variant="hero" size="sm" className="w-full">
-                    Resume
+                  <Button variant="hero" size="sm" className="w-full" asChild>
+                    <a
+                      href="/Rojish_Resume.pdf"
+                      download
+                      className="w-full text-center block"
+                      onClick={() => setIsOpen(false)} // close mobile menu after click
+                    >
+                      Resume
+                    </a>
                   </Button>
                 </motion.div>
+
+
               </div>
             </motion.div>
           )}
