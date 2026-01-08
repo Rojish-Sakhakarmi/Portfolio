@@ -12,17 +12,19 @@ const AboutSection = () => {
           <div className="grid md:grid-cols-3 gap-12">
             <div className="md:col-span-2 space-y-4">
               <p className="text-muted-foreground leading-relaxed">
-                Hello! I'm a passionate IT student with a love for technology and problem-solving. 
-                My journey in tech started when I built my first website, and I've been hooked ever since.
+                Namaste! I'm Rojish Sakhakarmi, a passionate IT student from the beautiful 
+                city of Bhaktapur, Nepal. Currently pursuing BCS.IT at KFA Business School & IT, 
+                I'm dedicated to mastering the art of creating user-centered digital experiences.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                I enjoy creating things that live on the internet, whether that be websites, 
-                applications, or anything in between. My goal is to always build products that 
-                provide pixel-perfect, performant experiences.
+                My primary interest lies in UI/UX design – understanding how people interact 
+                with technology and creating interfaces that are not just functional, but 
+                delightful to use. I believe great design is invisible; it just works.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, contributing to 
-                open-source projects, or learning about the latest trends in software development.
+                Beyond design, I have a keen interest in trading and possess strong 
+                communication and sales skills. I'm always eager to learn new things and 
+                connect with like-minded individuals.
               </p>
             </div>
 

@@ -1,35 +1,35 @@
-import { Code2, Database, Globe, Laptop, Server, Smartphone } from "lucide-react";
+import { Palette, Code2, TrendingUp, MessageCircle, Megaphone, Lightbulb } from "lucide-react";
 
 const skills = [
   {
-    category: "Frontend",
-    icon: Globe,
-    items: ["HTML/CSS", "JavaScript", "React", "Tailwind CSS"],
+    category: "UI/UX Design",
+    icon: Palette,
+    items: ["User Research", "Wireframing", "Prototyping", "Visual Design"],
   },
   {
-    category: "Backend",
-    icon: Server,
-    items: ["Node.js", "Python", "SQL", "REST APIs"],
-  },
-  {
-    category: "Languages",
+    category: "Web Development",
     icon: Code2,
-    items: ["JavaScript", "TypeScript", "Python", "Java"],
+    items: ["HTML5", "CSS3", "Responsive Design", "Web Accessibility"],
   },
   {
-    category: "Database",
-    icon: Database,
-    items: ["MySQL", "PostgreSQL", "MongoDB", "Firebase"],
+    category: "Trading",
+    icon: TrendingUp,
+    items: ["Technical Analysis", "Market Research", "Risk Management", "Trading Strategies"],
   },
   {
-    category: "Tools",
-    icon: Laptop,
-    items: ["Git", "VS Code", "Docker", "Linux"],
+    category: "Communication",
+    icon: MessageCircle,
+    items: ["Public Speaking", "Written Communication", "Active Listening", "Team Collaboration"],
   },
   {
-    category: "Mobile",
-    icon: Smartphone,
-    items: ["React Native", "Flutter", "Android", "iOS Basics"],
+    category: "Sales",
+    icon: Megaphone,
+    items: ["Client Relations", "Negotiation", "Presentation Skills", "Lead Generation"],
+  },
+  {
+    category: "Soft Skills",
+    icon: Lightbulb,
+    items: ["Problem Solving", "Critical Thinking", "Time Management", "Adaptability"],
   },
 ];
 
@@ -40,7 +40,7 @@ const SkillsSection = () => {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-2">
             <span className="text-primary font-mono text-lg">02.</span>{" "}
-            <span className="text-foreground">Skills & Technologies</span>
+            <span className="text-foreground">Skills & Expertise</span>
           </h2>
           <div className="h-px bg-border flex-1 ml-4 mb-12" />
 
