@@ -31,7 +31,7 @@ const HeroSection = () => {
           y: 0
         }} transition={{
           duration: 0.5
-        }} className="text-primary font-mono text-xs md:text-sm mb-3 md:mb-4">
+        }} className="text-primary font-mono text-xs mb-3 md:mb-4 md:text-base">
             Hi, my name is
           </motion.p>
           
