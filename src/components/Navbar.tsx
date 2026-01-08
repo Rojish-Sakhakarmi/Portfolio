@@ -53,13 +53,14 @@ const Navbar = () => {
             >
               <Button variant="hero" size="sm" asChild>
                 <a
-                  href="/public/Rojish_CV.pdf"  // put your PDF in public folder
+                  href="/Rojish_CV.pdf" // correct path
                   download
                   className="w-full text-center"
-                >
+  >
                   Resume
-                </a>
-              </Button>
+                  </a>
+                </Button>
+
             </motion.div>
 
           </div>
@@ -104,15 +105,16 @@ const Navbar = () => {
                   transition={{ delay: 0.3 }}
                 >
                   <Button variant="hero" size="sm" className="w-full" asChild>
-                    <a
-                      href="/Rojish_Resume.pdf"
-                      download
-                      className="w-full text-center block"
-                      onClick={() => setIsOpen(false)} // close mobile menu after click
-                    >
-                      Resume
-                    </a>
-                  </Button>
+  <a
+    href="/Rojish_CV.pdf"
+    download
+    className="w-full text-center block"
+    onClick={() => setIsOpen(false)} // closes menu
+  >
+    Resume
+  </a>
+</Button>
+
                 </motion.div>
 
 
