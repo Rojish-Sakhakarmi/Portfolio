@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights"; // correct import for Vite + React
+
 
 const queryClient = new QueryClient();
 
@@ -25,8 +25,8 @@ const App = () => (
       {/* Vercel Analytics */}
       <Analytics />
 
-      {/* Vercel Speed Insights */}
-      <SpeedInsights />
+      
+      
     </TooltipProvider>
   </QueryClientProvider>
 );
