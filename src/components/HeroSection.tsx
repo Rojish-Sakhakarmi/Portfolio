@@ -64,7 +64,7 @@ const HeroSection = () => {
             </motion.a>
 
             <motion.a
-              href="mailto:rojish180example.com"
+              href="mailto:rojish180@gmail.com"
               className="p-2.5 md:p-3 rounded-lg border border-border text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300"
               whileHover={{ scale: 1.1, rotate: -5 }}
               whileTap={{ scale: 0.95 }}
