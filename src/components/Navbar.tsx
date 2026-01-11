@@ -56,7 +56,7 @@ const Navbar = () => {
                   href="/Rojish_CV.pdf" 
                   download
                   className="w-full text-center"
-                >
+  >
                   Resume
                 </a>
               </Button>
@@ -106,7 +106,7 @@ const Navbar = () => {
                 >
                   <Button variant="hero" size="sm" className="w-full" asChild>
                     <a
-                      href="/Rojish_Resume.pdf"
+                      href="/Rojish_CV.pdf"
                       download
                       className="w-full text-center block"
                       onClick={() => setIsOpen(false)} // closes menu
