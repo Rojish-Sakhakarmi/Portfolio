@@ -55,7 +55,7 @@ const AboutSection = () => {
                 >
                   <div className="w-full h-full bg-muted flex items-center justify-center overflow-hidden">
                     <motion.img
-                      src="/images/profile.jpg" 
+                      src="/images/profile.jpg" // ✅ Correct path for public folder
                       alt="Rojish Sakhakarmi"
                       className="w-full h-full object-cover rounded-lg"
                       whileHover={{ scale: 1.05 }}
