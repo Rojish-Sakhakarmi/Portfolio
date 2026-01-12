@@ -5,8 +5,8 @@ It showcases my skills, projects, and ways to get in touch with me.
 
 ## 🚀 Project Info
 
-**Live Site:** [https://my-portfolio.vercel.app](https://my-portfolio.vercel.app)  
-**GitHub Repo:** [https://github.com/your-username/my-portfolio](https://github.com/your-username/my-portfolio)
+**Live Site:** [https://rojish.vercel.app](https://rojish.vercel.app)  
+**GitHub Repo:** [https://github.com/Rojish-Sakhakarmi](https://github.com/your-username/my-portfolio)
 
 ## 💻 Tech Stack
 
@@ -37,7 +37,7 @@ public/
 
 ## 📬 Contact
 
-- **Email:** rojish80@gmail.com  
+- **Email:** rojish180@gmail.com  
 - **LinkedIn:** [https://linkedin.com/in/rojish0](https://linkedin.com/in/rojish0)  
-- **Instagram:** [https://instagram.com/your-instagram](https://instagram.com/rojish0)
+- **Instagram:** [https://instagram.com/rojish0](https://instagram.com/rojish0)
 
